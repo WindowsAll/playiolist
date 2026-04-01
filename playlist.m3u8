@@ -1,0 +1,52 @@
+#EXTM3U
+
+## ── Ручные записи (не трогать) ─────────────
+#EXTINF:-1, Moldova 1
+https://v1.trm.md/static/streaming-playlists/hls/599da1b2-3575-41b7-808d-64aa66d1172f/0.m3u8
+
+#EXTINF:-1, Moldova 2
+https://v0.trm.md/static/streaming-playlists/hls/d5fafab0-9c37-4746-9e7a-b2d6c0427015/master.m3u8
+
+#EXTINF:-1, Discovery (Ru)
+http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
+
+#EXTINF:-1, PRO TV Chisinau
+https://stream.protv.md/live/sursa-1/index.m3u8
+
+#EXTINF:-1, Tele Moldova +
+https://vdo.ssl-stream.com:3247/stream/play.m3u8
+
+#EXTINF:-1, Tezaur TV
+http://tezaur.mlbfan.org/tezaur/index.m3u8
+
+#EXTINF:-1,Realitatea TV
+https://realitatealive.md/tv/rlive.m3u8
+
+#EXTINF:-1,TVR Moldova
+https://tvr-moldova.lg.mncdn.com/tvrmoldova/smil:tvrmoldova.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MoldovaTV.md@SD" tvg-logo="https://i.imgur.com/gPMlDCP.png" group-title="General",Moldova TV (1080p)
+https://moldovatv.ro/live-tv/live.m3u8
+
+#EXTINF:-1 tvg-id="TeleMoldovaPlus.ro@SD" tvg-logo="https://i.imgur.com/8z0zLjw.jpeg" group-title="News",TeleMoldova + [Geo-blocked]
+https://vdo.ssl-stream.com:3247/stream/play.m3u8
+
+## ── Авто (скрипт) ──────────────────────────
+#EXTINF:-1 tvg-auto="yes" tvg-url="https://busuioctv.md/live/" tvg-name="Busuioctv",Busuioctv  [score=290]
+https://tt.nfthost.net/static/streaming-playlists/hls/bb907ca9-5cb5-49dd-b276-d77721a9bc6d/2.m3u8
+
+#EXTINF:-1 tvg-auto="yes" tvg-url="https://www.jurnaltv.md/page/live" tvg-name="Jurnaltv",Jurnaltv  [score=270]
+https://live.cdn.jurnaltv.md/JurnalTV_HD/tracks-v1a1/mono.ts.m3u8?token=37c46b16530456644aace693121915792813c1dc
+
+#EXTINF:-1 tvg-auto="yes" tvg-url="https://tv8.md/live" tvg-name="Tv8",Tv8  [score=270]
+https://live.cdn.tv8.md/TV7/tracks-v1a1/mono.ts.m3u8?token=7d456919d655b0c86ff502627d89de3aa40a2037
+
+#EXTINF:-1 tvg-auto="yes" tvg-url="http://rutv.pw/natgeohd" tvg-name="Rutv",Rutv  [score=265]
+https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-auto="yes" tvg-url="http://magtv.top/online/discovery-channel" tvg-name="Magtv",Magtv  [score=290]
+https://edge02-alm.beetv.kz/bpk-token/3an@ehx0unau2ktwrsougxusxovj1izzvgndezz5uqca/bpk-tv/000001496/tve/000001496-audio_82882_rus=82400-video=5287600.m3u8
+
+#EXTINF:-1 tvg-auto="yes" tvg-url="http://rutv.pw/natgeowild" tvg-name="Rutv",Rutv  [score=290]
+https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8
+
